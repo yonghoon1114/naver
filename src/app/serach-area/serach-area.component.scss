@@ -1,0 +1,166 @@
+input{
+    height: 100%;
+    width: 80%;
+    font-size: 16px;
+    padding: 4px 12px;
+    box-sizing: border-box;
+    border: none;
+    &:focus{
+        outline: none;
+    }
+}
+img{
+    height: 50px;
+    width: 43px;
+    overflow: hidden;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.SearchBar{
+    display: flex;
+    margin-bottom: 15px;
+    border: 1px solid rgb(32, 173, 32);
+    width : 706px;
+    height: 58px;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 5px;
+    &:hover,
+    &:focus {
+        border-color: rgb(32, 173, 32);  
+        box-shadow: rgba(0, 0, 0, 0.1) 0 4px 10px;
+        color: rgba(0, 0, 0, 0.65);
+    }
+    @media (max-width:600px){
+        width: 80%;
+        height: 52px;
+        margin-top: 40px;
+        border-color: rgb(32, 173, 32);  
+        box-shadow: rgba(0, 0, 0, 0.1) 0 4px 10px;
+        color: rgba(0, 0, 0, 0.65);
+        &:hover{
+            transition: none;
+        }
+    }
+}
+.SearchBar:hover {
+  transform: translateY(-1px);
+}
+.icon{
+    flex-basis: 50px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.icon-right{
+    flex-basis: 50px;;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    @media(max-width:600px) {
+        width: 56px;
+        height:50px;
+    }
+}
+.buttonArea{
+    display:flex;
+    width: 100%;
+    height: 80px;
+    margin-top: 15px;
+    gap: 20px;
+    justify-content: center;
+    @media(max-width:600px){
+        display: none;
+      }
+}
+.buttons{
+    z-index: 999;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    z-index: 999;
+    border: 1px solid rgb(212, 211, 211);
+    &:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+    }
+}
+.TextButton{
+    margin-top: 8px;
+    text-align: center;
+    @media(max-width:600px){
+        display: none;
+      }
+}
+.MoreMenu{
+  width: 708px;
+  height: 364px;
+  background-color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 120px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+  border: none;
+  display: flex;
+  z-index: 1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 16px;
+  padding-right: 15px;
+  @media(max-width:600px){
+    display: none;
+  }
+}
+.ButtonOver{
+  z-index: 999;
+  @media(max-width:600px){
+    display: none;
+  }
+}
+.ButtonSection-M{
+    width: 100%;
+    height: 171px;
+    // margin-left: 17%;
+    // margin-right: 17%;
+    padding-bottom: 2%;
+    gap: 7%;
+    .row{
+        padding-top: 5%;
+        gap:7%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .ButtonMobile{
+            background-color: white;
+            border-radius: 15px;
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            border: 1px solid rgb(212, 211, 211);
+            &:hover{
+            box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+            color: rgba(0, 0, 0, 0.65);
+            }
+        }
+    }
+    @media (min-width: 600px) {
+        display: none;
+    };
+}

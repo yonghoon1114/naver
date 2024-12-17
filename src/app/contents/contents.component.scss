@@ -1,0 +1,704 @@
+img{
+    height: 68px;
+    width: 58px;
+    max-width: 100%;
+}
+button{
+    cursor: pointer;
+}
+.contents-area{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: unset;
+
+    @media(max-width:600px){
+        display: none;
+      }
+}
+.contents-line{
+    height: 100%;
+}
+.contents-ad{
+    border: none;
+    border-radius: 8px;
+    width: 830px;
+    height: 130px;
+    cursor: pointer;
+}
+.news{
+    width: 830px;
+    height: 426px;
+    border: 1px solid rgb(186, 183, 183);
+    margin-top: 16px;
+    border-radius: 8px;
+}
+.newsTop{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    gap: 6px;
+}
+.text-menu{
+    background-color: white;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgba(8,8,8,.5);
+    -webkit-font-smoothing: antialiased;
+    &:hover
+    {
+        text-decoration: underline;
+    }
+}
+.pressMenu{
+    display: flex;
+    background-color: rgb(237, 235, 235);
+    width: 790px;
+    height: 46px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    align-items: center;
+}
+.buttonsection{
+    justify-content: center;
+    width: 790px;
+    height: 224px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+.buttonsection-menu2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+    width: 385px;
+    height: 104px;
+    margin-top: 16px;
+}
+.contents-menu2{
+    display: flex;
+    width: 790px;
+    height: 224px;
+    gap: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 36px;
+
+}
+.textBox-menu2{
+    width:213px;
+    height:100px;
+    border: 1px solid black;
+}
+.text-menu-small{
+    border: none;
+    display: flex;
+    gap: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(8,8,8,.5);
+    background-color: transparent;
+    &:hover
+    {
+        text-decoration: underline;
+    }
+}
+.container{
+    width: 830px;
+    height: 560px;
+    border: 1px solid rgb(186, 183, 183);    
+    margin-top: 16px;
+    border-radius: 8px;
+}
+.Login{
+    text-align: center;
+    width: 420px;
+    height: 164px;
+    border: 1px solid rgb(186, 183, 183);
+    border-radius: 8px;
+    padding: 20px;
+    
+}
+.ad2{
+    width: 420px;
+    height: 240px;    
+    border: none;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: rgb(243, 237, 237);
+    cursor: pointer;
+}
+.ContentInfo{
+    margin-top: 60px;
+    background-color: rgb(240, 238, 238);
+    border: none;
+    width: 100%;
+    height: 462px;
+    @media(max-width:600px){
+        display: none;
+      }
+}
+.newsBox{
+    width: 420px;
+    height: 56px;
+    margin-top: 16px;
+    border: 1px solid rgb(186, 183, 183);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.weatherBox{
+    width: 420px;
+    height: 236px;
+    margin-top: 16px;
+    border: 1px solid rgb(186, 183, 183);
+    border-radius: 8px;
+}
+.EconomyBox{
+    width: 420px;
+    height: 236px;
+    margin-top: 16px;
+    border: 1px solid rgb(186, 183, 183);
+    border-radius: 8px;
+}
+.board{
+    width: 420px;
+    height: 782px;
+    border-radius: 8px;
+    background-color: rgb(228, 225, 225);
+    @media (max-width: 2560px){
+        margin-top: 15px;
+    }
+}
+.ad3{
+    width: 420px;
+    height: 80px;
+    border: 1px solid rgb(186, 183, 183);
+    border-radius: 8px;
+    margin-top: 16px;
+
+}
+.ShoppingSection{
+    display: flex;
+    width:100%;
+    height: 394px;
+    padding-left: 20px;
+    padding-top: 18px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+    .ShoppingItems{
+        width: 522px;
+        height: 375px;
+        margin-right: 20px;
+        .row{
+            display: flex;
+        
+            .items{
+                width: 106px;
+                height: 186px;
+                padding-left: 3px;
+                padding-bottom: 12px;
+                .ShoppingImage{
+                    width: 98px;
+                    height: 126px;
+                    border-radius: 4px;
+                    border: 1px solid red;
+                }
+                .textBox{
+                    width: 98px;
+                    height: 48px;
+                    padding-top: 8px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .CommerceView{
+        width: 248px;
+        height: 375px;
+        .Menu1{
+            display: flex;
+            width: 248px;
+            height: 88px;
+            padding-top: 9px;
+            padding-left: 12px;
+            padding-bottom: 4px;
+            padding-right: 12px;
+            background-color: rgb(237, 235, 235);
+            border-radius: 4px;
+            .shoppingCompany{
+                font-size: smaller;
+                font-weight: lighter;
+            }
+        }
+        .Menu2{
+            border-radius: 4px;
+            display: flex;
+            width: 248px;
+            height: 76px;
+            padding: 9px;
+            margin-top: 12px;
+            background-color: rgb(237, 235, 235);
+
+        }
+        .AdImage{
+            width: 248px;
+            height: 146px;
+            border: 1px solid red;
+            margin-top: 12px;
+            border-radius: 4px;
+        }
+        .AdText{
+            width: 248px;
+            height: 20px;
+            margin-top: 8px;
+            text-align: center;
+        }
+    }
+}
+.press {
+    display: flex;
+    width:131.27px;
+    height: 56px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #d9d9dc;
+    display: inline-block;
+    cursor: pointer;
+    background: #fff;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.press span:first-child {
+  position: relative;
+  z-index: 10;
+}
+.press span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  height: 14px;
+  line-height: 13px;
+}
+.press:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+.press:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+.press:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+}
+.pressAfter{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    display: flex;
+    flex: 0 1 auto;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.BottomBar{
+    border: 1px solid rgb(186, 183, 183);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    width: 100%;
+    height: 58px;
+    // margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.LoginButton {
+    width: 380px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03c75a;
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    gap: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #07aa50;
+    }
+}
+.LoginMenu{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+.TextButtonSmall{
+    font-size: smaller;
+    cursor: pointer;
+    &:hover
+    {
+        text-decoration: underline;
+    }
+}
+.sticky{
+    height: 996px; 
+    position: sticky;
+    top: 50px;    
+    @media (max-width: 2560px) {
+        position: relative;
+        top: 0px;
+    }
+}
+.round-button{
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 7px;
+    border: none;
+    text-align: center;
+    align-items: center;
+    padding: 8px;
+    width: auto;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(224, 223, 223);
+    }
+}
+.status-selected2{
+    background-color: rgb(82, 82, 248);
+    color: white;
+    font-weight: 700;
+    &:hover{
+        background-color: rgb(82, 82, 248);
+        color: white;
+        font-weight: 700;
+    }
+}
+.WeatherNews{
+    color: black;
+    font-weight: 700;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    gap: 20px;
+    border: none;
+    cursor: pointer;
+}
+.WeatherNewsText{
+    color: black;
+    font-weight: 700;
+    font-size: small;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.newsbreak{
+    background-color: rgb(230, 59, 59);
+    color: white;
+    font-weight: 700;
+    font-size: small;
+    padding: 5px;
+    width: 70px;
+    border-radius: 20px;
+}
+.menu2-button {
+    width: 156px;
+    height: 104px;
+    border: 1px solid #d9d9dc;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 5px;
+}
+.status-selected{
+    background-color: white;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: rgba(8,8,8,.5);
+    -webkit-font-smoothing: antialiased;
+    &:hover
+    {
+        text-decoration: underline;
+    }
+}
+.PageChange{
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 5px;
+    cursor: pointer;
+}
+.container-large{
+    width: 830px;
+    height: auto;
+    border: 1px solid rgb(186, 183, 183);    
+    margin-top: 16px;
+    border-radius: 8px;
+    .feedArea{
+        margin-top: 18px;
+        width:100%;
+        padding-right: 20px;
+        height: auto;
+        .row{
+            display:flex;
+        }
+        .Content{
+            width: 202.5px;
+            height: 214px;
+            padding-left: 20px;
+            padding-bottom: 20px;
+        }
+    }
+    .ContentImage{
+        width:182.5px;
+        height: 120px;
+        border-radius: 4px;
+        border: 1px solid red;
+    }
+    .ContentText{
+        width: 182.5px;
+        height: 64px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .Expand{
+        margin-top: 0px;
+        padding-top: 18px;
+        width:100%;
+        padding-right: 20px;
+        border-top: 1px solid gray;
+        height: 675px;
+    }
+    
+    .SeeMore{
+        background-color: transparent;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+}
+.row2{
+    display: flex;
+    gap: 30px;
+    @media (max-width: 2560px){
+        display: inline;
+
+    }
+}
+
+// Mobile
+.Contents-M{
+    @media(min-width: 600px){
+        display: none;
+    }
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap:10px;
+    .contents1-M{
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .AD-M{
+            position: relative;
+            width: 375px;
+            height: 100px;
+            background-color: rgb(208, 206, 206);
+            border: none;
+        }
+    }
+    .Weather-M{
+        height: 324px;
+    }
+    .NOW-M{
+        height: 258px;
+        overflow: hidden;
+        .NowText-M{
+            color: red;
+        }
+        .NowImg{
+            border-radius: 5px;
+            background-color: gray;
+            width: 100px;
+            height: 138px;
+        }
+        .textBox-M{
+            width: 98px;
+            height: 42px;
+            margin-top: 10px;
+        }
+    }
+    .Shopping-M{
+        height: 514px;
+        .ShoppingImg-M{
+            width: 86px;
+            height: 86px;
+            background-color: gray;
+            margin-right: 15px;
+            border-radius: 5px;
+        }
+        .text-Shopping{
+          width: 276px;
+          height: 86px;  
+        }
+        .shoppingBot{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            width: 377px;
+            height: 44px;
+            background-color: rgb(221, 220, 220);
+            margin-top: 20px;
+        }
+    }
+    .Shorts{
+        height: 378px;
+        overflow: hidden;
+        .ShortsImg{
+            width: 132px;
+            height: 198px;
+            background-color: gray;
+            margin-top: 15px;
+            border-radius: 10px;
+        }
+        .ShortsTitle{
+            width:132px;
+            height: 42px;
+            margin-top: 10px;        
+        }
+        .ShortsChannel{
+            width: 132px;
+            height: 18px;
+            color: gray;
+            margin-top: 7px;
+        }
+    }
+    .SmallAd{
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Stocks-M{
+        height:160px;
+
+        .stocksBlock{
+            width: 140px;
+            height: 64px;
+            padding-left: 20px;
+            padding-right: 15px;
+            border-right: 1px solid gray;
+        }
+        .buttonArea{
+            display: flex;
+            background-color: rgb(234, 234, 234);
+            width: 377px;
+            height: 44px;
+            border-radius: 20px;
+            margin-top: 15px;
+            align-items: center;
+            .buttonStocks{
+                width: 125px;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .Bar{
+                width: 1px;
+                height: 14px;
+                background-color: gray;
+                border: none;
+            }
+        }
+    }
+    .roundBanner-M{
+        height: 72px;
+        border-radius: 30px;
+    }
+    .wrap{
+        height:346px;
+        margin-top: 12px;
+        padding-top: 20px;
+        margin-left: 8px;
+        padding-bottom: 10px;
+        .wrapBanner{
+            height: 295px;
+            .NaverToday{
+                height: 253px;
+                margin-left: 8px;
+                margin-right: 8px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+.container-M{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 10px;
+    color: rgba(0, 0, 0, 0.65);
+    padding: 15px;
+}
+.row{
+    display: flex;
+    gap: 5px;
+}
+.titleText-M{
+    font-weight: 800;
+    font-size: larger;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.margin-top{
+    margin-top: 10px;
+}

@@ -1,0 +1,40 @@
+<div class="TopBar">
+    <div class="LeftMenu">
+        <button class="ClickMenu"(click)="ClickMenu()">
+            <img src = "../../assets/images/화면 캡처 2023-08-01 160303.png">
+        </button>
+        <ng-container *ngIf="OpenMenu">
+            <div class="Menu">
+                <div class = "Menu-top">바로가기</div>
+            </div>
+        </ng-container>
+    </div>
+    <div class="RightMenu">
+        <button type="button" class="btn-search tooltip-base">
+            <button class = "NaverPay"><img src="../../assets/images/스크린샷 2023-07-31 101855.png" alt="">
+                    <span class="tooltip-text">네이버페이</span>
+            </button>
+        </button>
+        <button type="button" class="btn-search tooltip-base">
+            <button class = "NaverPay"><img src="../../assets/images/스크린샷 2023-07-31 101855.png" alt="">
+                    <span class="tooltip-text">알림.혜택</span>
+            </button>
+        </button>
+    </div>
+</div>
+
+<!-- Mobile -->
+
+<div class="TopBar-M">
+    <div class="LeftMenu">
+        <a class="ClickMenu">
+            <img src = "../../assets/images/화면 캡처 2023-08-01 160303.png">
+        </a>
+        <button type="button" class="btn-search tooltip-base">
+            <button class = "NaverPay"><img src="../../assets/images/스크린샷 2023-07-31 101855.png" alt="">
+                    <span class="tooltip-text">네이버페이</span>
+            </button>
+        </button>
+    </div>
+    
+</div>

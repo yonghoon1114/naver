@@ -1,0 +1,1143 @@
+<div class="contents-area">
+    <div class = "contents-line1">
+        <button class="contents-ad" (click)="test()">광고!</button>
+        <div class="news">
+            <div class="newsTop">
+                <button class = "text-menu" (click)="page1()" [ngClass]="{'status-selected': newsMenu === 1}">
+                    뉴스스탠드 
+                </button>
+                <button class = "text-menu" (click)="page2()" [ngClass]="{'status-selected': newsMenu === 2}">
+                    언론사 편집
+                </button>
+                <button class = "text-menu" (click)="page3()" [ngClass]="{'status-selected': newsMenu === 3}">
+                    엔터 
+                </button>
+                <button class = "text-menu" (click)="page4()" [ngClass]="{'status-selected': newsMenu === 4}">
+                    스포츠
+                </button>
+                <button class = "text-menu" (click)="page5()" [ngClass]="{'status-selected': newsMenu === 5}">
+                    경제
+                </button>   
+            </div>
+            <ng-container *ngIf="newsMenu===1">
+                <div class = "pressMenu">
+                    <button class="text-menu-small">
+                        전체언론사
+                    </button>
+                </div>
+                <div class = "buttonsection">
+                    <div>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                        <button class="press" role="button">
+                            <span class="text">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </span>
+                            <span style="display: flex; left: 49px;right: 0px; top: 30px;">
+                                <button class = "pressAfter" style="flex: 1 0 auto;" >구독</button> | <button class = "pressAfter" style="flex: 1 0 auto;">기사보기 </button>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </ng-container>
+            <ng-container *ngIf="newsMenu===2">
+                <div class = "pressMenu">
+                    <button class="text-menu-small">
+                        분야별 뉴스
+                    </button>
+                </div>
+                <div class="contents-menu2">
+                    <div>
+                        <div class = "buttonsection-menu2">
+                            <button class="menu2-button">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </button>
+                            <div class = "textBox-menu2">
+                                텍스트박스다
+                            </div>
+                        </div>
+                        <div class = "buttonsection-menu2">
+                            <button class="menu2-button">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </button>
+                            <div class = "textBox-menu2">
+                                텍스트박스다
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class = "buttonsection-menu2">
+                            <button class="menu2-button">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </button>
+                            <div class = "textBox-menu2">
+                                텍스트박스다
+                            </div>
+                        </div>
+                        <div class = "buttonsection-menu2">
+                            <button class="menu2-button">
+                                <img src = '../../assets/images/naver icon.jpeg'>
+                            </button>
+                            <div class = "textBox-menu2">
+                                텍스트박스다
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ng-container>
+            <ng-container *ngIf="newsMenu===3">
+                <div class = "pressMenu">
+                    <button class="text-menu-small">
+                        now 
+                    </button>
+                </div>
+                <div class="contents-menu2">
+                    
+                </div>
+            </ng-container>
+            <ng-container *ngIf="newsMenu===4">
+                <div class = "pressMenu">
+                    <button class="text-menu-small">
+                        야구
+                    </button>
+                </div>
+                <div class="contents-menu2">
+                </div>
+            </ng-container>
+            <ng-container *ngIf="newsMenu===5">
+                <div class = "pressMenu">
+                    <button class="text-menu-small">
+                        국내증시
+                    </button>
+                </div>
+                <div class="contents-menu2">
+
+                </div>
+            </ng-container>
+            <div class = "BottomBar">
+                <button class = "PageChange" (click)="PreviousPage()"></button>
+                {{seeMore}} 더보기 {{CurrentPage}} / {{PageMax}}
+                <button class = "PageChange" (click)="NextPage()"></button>
+            </div> 
+        </div>
+        <div class="container">
+            <div class="newsTop">
+                <button class = "text-menu" (click)="(ShoppingMenu=1)" [ngClass]="{'status-selected':  ShoppingMenu === 1}">
+                    쇼핑
+                </button>
+                <button class = "text-menu" (click)="(ShoppingMenu=2)" [ngClass]="{'status-selected':  ShoppingMenu === 2}">
+                    맨즈
+                </button>
+                <button class = "text-menu" (click)="(ShoppingMenu=3)" [ngClass]="{'status-selected':  ShoppingMenu === 3}">
+                    원쁠딜
+                </button>
+                <button class = "text-menu" (click)="(ShoppingMenu=4)" [ngClass]="{'status-selected': ShoppingMenu === 4}">
+                    쇼핑라이브
+                </button>   
+            </div>
+            <ng-container *ngIf="ShoppingMenu===1">
+                <div class = "pressMenu">
+                    <button class="text-menu-small">
+                        오늘의 혜택
+                    </button>
+                </div>
+                <div class = "ShoppingSection">
+                    <div class="ShoppingItems">
+                        <div class="row">
+                            <div class="items" style="padding-left: 0px;">
+                                <div class="ShoppingImage">
+                                    
+                                </div>
+                                <div class="textBox">
+                                    홍보 텍스트
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="ShoppingImage">
+                                    
+                                </div>
+                                <div class="textBox">
+                                    홍보 텍스트
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="ShoppingImage">
+                                    
+                                </div>
+                                <div class="textBox">
+                                    홍보 텍스트
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="ShoppingImage">
+                                    
+                                </div>
+                                <div class="textBox">
+                                    홍보 텍스트
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="ShoppingImage">
+                                    
+                                </div>
+                                <div class="textBox">
+                                    홍보 텍스트
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="items" style="padding-left: 0px;">
+                                <div class="ShoppingImage">
+                                    
+                                </div>
+                                <div class="textBox">
+                                    홍보 텍스트
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="ShoppingImage">
+                                    
+                                </div>
+                                <div class="textBox">
+                                    홍보 텍스트
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="ShoppingImage">
+                                    
+                                </div>
+                                <div class="textBox">
+                                    홍보 텍스트
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="ShoppingImage">
+                                    
+                                </div>
+                                <div class="textBox">
+                                    홍보 텍스트
+                                </div>
+                            </div>
+                            <div class="items">
+                                <div class="ShoppingImage">
+                                    
+                                </div>
+                                <div class="textBox">
+                                    홍보 텍스트
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="CommerceView">
+                        <div class="Menu1">
+                            <button class="text-menu-small shoppingCompany">쿠팡 </button>
+                            <button class="text-menu-small shoppingCompany">쿠팡 </button>
+                            <button class="text-menu-small shoppingCompany">쿠팡 </button>
+                            <button class="text-menu-small shoppingCompany">쿠팡 </button>
+                            <button class="text-menu-small shoppingCompany">쿠팡 </button>
+                        </div>
+                        <div class="Menu2">
+
+                        </div>
+                        <div class="AdImage">
+                            
+                        </div>
+                        <div class="AdText">광고문구</div>
+                    </div>
+                </div>
+                <div class = "BottomBar">
+                    <button class = "PageChange"></button>
+                        쇼핑몰 더보기
+                    <button class = "PageChange"></button>
+                </div>
+            </ng-container>
+        </div>
+        <div class="container-large">
+            <div class="newsTop">
+                <button class = "text-menu" (click)="ContentMenu1 = 1" [ngClass]="{'status-selected':  ContentMenu1 === 1}">
+                    추천 구독
+                </button>
+                <button class = "text-menu" (click)="ContentMenu1 = 2" [ngClass]="{'status-selected':  ContentMenu1 === 2}">
+                    자동차
+                </button>
+                <button class = "text-menu" (click)="ContentMenu1 = 3" [ngClass]="{'status-selected':  ContentMenu1 === 3}">
+                    웹툰
+                </button>
+                <button class = "text-menu" (click)="ContentMenu1 = 4" [ngClass]="{'status-selected':  ContentMenu1 === 4}">
+                    패션뷰티
+                </button>
+                <button class = "text-menu" (click)="ContentMenu1 = 5" [ngClass]="{'status-selected':  ContentMenu1 === 5}">
+                    레시피
+                </button>
+                <button class = "text-menu" (click)="ContentMenu1 = 6" [ngClass]="{'status-selected':  ContentMenu1 === 6}">
+                    리빙
+                </button>
+                <button class = "text-menu" (click)="ContentMenu1 = 7" [ngClass]="{'status-selected':  ContentMenu1 === 7}">
+                    책방
+                </button>
+                <button class = "text-menu" (click)="ContentMenu1 = 8" [ngClass]="{'status-selected':  ContentMenu1 === 8}">
+                    지식+
+                </button>
+            </div>
+            <ng-container *ngIf="ContentMenu1===1">
+                <div class = "pressMenu">
+                    <button class = "round-button" (click)="ContentInside = 1" [ngClass]="{'status-selected2':  ContentInside === 1}">
+                        전체
+                    </button>
+                    <button class = "round-button" (click)="ContentInside = 2" [ngClass]="{'status-selected2':  ContentInside === 2}">
+                        인기
+                    </button>
+                    <button class = "round-button" (click)="ContentInside = 3" [ngClass]="{'status-selected2':  ContentInside === 3}">
+                        건강
+                    </button>
+                    <button class = "round-button" (click)="ContentInside = 4" [ngClass]="{'status-selected2':  ContentInside === 4}">
+                        게임
+                    </button>
+                    <button class = "round-button" (click)="ContentInside = 5" [ngClass]="{'status-selected2':  ContentInside === 5}">
+                        동물
+                    </button>
+                    <button class = "round-button" (click)="ContentInside = 6" [ngClass]="{'status-selected2':  ContentInside === 6}">
+                        여행
+                    </button>
+                    <button class = "round-button" (click)="ContentInside = 7" [ngClass]="{'status-selected2':  ContentInside === 7}">
+                        연애결혼
+                    </button>
+                    <button class = "round-button" (click)="ContentInside = 8" [ngClass]="{'status-selected2':  ContentInside === 8}">
+                        영화
+                    </button>
+                    <button class = "round-button" (click)="ContentInside = 9" [ngClass]="{'status-selected2':  ContentInside === 9}">
+                        육아
+                    </button>
+                </div>
+                <ng-container *ngIf="ContentInside===1">
+                    <div class="feedArea">
+                        <div style="display: flex;">
+                            <div class="Content">
+                                <div class="ContentImage">
+                                    
+                                </div>
+                                <div class="ContentText">
+                                    기사 텍스트
+                                </div>
+                            </div>
+                            <div class="Content">
+                                <div class="ContentImage">
+                                    
+                                </div>
+                                <div class="ContentText">
+                                    기사 텍스트
+                                </div>
+                            </div>
+                            <div class="Content">
+                                <div class="ContentImage">
+                                    
+                                </div>
+                                <div class="ContentText">
+                                    기사 텍스트
+                                </div>
+                            </div>
+                            <div class="Content">
+                                <div class="ContentImage">
+                                    
+                                </div>
+                                <div class="ContentText">
+                                    기사 텍스트
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex;">
+                            <div class="Content">
+                                <div class="ContentImage">
+                                    
+                                </div>
+                                <div class="ContentText">
+                                    기사 텍스트
+                                </div>
+                            </div>
+                            <div class="Content">
+                                <div class="ContentImage">
+                                    
+                                </div>
+                                <div class="ContentText">
+                                    기사 텍스트
+                                </div>
+                            </div>
+                            <div class="Content">
+                                <div class="ContentImage">
+                                    
+                                </div>
+                                <div class="ContentText">
+                                    기사 텍스트
+                                </div>
+                            </div>
+                            <div class="Content">
+                                <div class="ContentImage">
+                                    
+                                </div>
+                                <div class="ContentText">
+                                    기사 텍스트
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex;">
+                            <div class="Content">
+                                <div class="ContentImage">
+                                    
+                                </div>
+                                <div class="ContentText">
+                                    기사 텍스트
+                                </div>
+                            </div>
+                            <div class="Content">
+                                <div class="ContentImage">
+                                    
+                                </div>
+                                <div class="ContentText">
+                                    기사 텍스트
+                                </div>
+                            </div>
+                            <div class="Content">
+                                <div class="ContentImage">
+                                    
+                                </div>
+                                <div class="ContentText">
+                                    기사 텍스트
+                                </div>
+                            </div>
+                            <div class="Content">
+                                <div class="ContentImage">
+                                    
+                                </div>
+                                <div class="ContentText">
+                                    기사 텍스트
+                                </div>
+                            </div>
+                        </div>
+                        <ng-container *ngIf="Expanded!==0">
+                            <div class="feedArea" [ngClass]="{'Expand' : Expanded === 1 }">
+                                <div style="display: flex;">
+                                    <div class="Content">
+                                        <div class="ContentImage">
+                                            
+                                        </div>
+                                        <div class="ContentText">
+                                            기사 텍스트
+                                        </div>
+                                    </div>
+                                    <div class="Content">
+                                        <div class="ContentImage">
+                                            
+                                        </div>
+                                        <div class="ContentText">
+                                            기사 텍스트
+                                        </div>
+                                    </div>
+                                    <div class="Content">
+                                        <div class="ContentImage">
+                                            
+                                        </div>
+                                        <div class="ContentText">
+                                            기사 텍스트
+                                        </div>
+                                    </div>
+                                    <div class="Content">
+                                        <div class="ContentImage">
+                                            
+                                        </div>
+                                        <div class="ContentText">
+                                            기사 텍스트
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="display: flex;">
+                                    <div class="Content">
+                                        <div class="ContentImage">
+                                            
+                                        </div>
+                                        <div class="ContentText">
+                                            기사 텍스트
+                                        </div>
+                                    </div>
+                                    <div class="Content">
+                                        <div class="ContentImage">
+                                            
+                                        </div>
+                                        <div class="ContentText">
+                                            기사 텍스트
+                                        </div>
+                                    </div>
+                                    <div class="Content">
+                                        <div class="ContentImage">
+                                            
+                                        </div>
+                                        <div class="ContentText">
+                                            기사 텍스트
+                                        </div>
+                                    </div>
+                                    <div class="Content">
+                                        <div class="ContentImage">
+                                            
+                                        </div>
+                                        <div class="ContentText">
+                                            기사 텍스트
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="display: flex;">
+                                    <div class="Content">
+                                        <div class="ContentImage">
+                                            
+                                        </div>
+                                        <div class="ContentText">
+                                            기사 텍스트
+                                        </div>
+                                    </div>
+                                    <div class="Content">
+                                        <div class="ContentImage">
+                                            
+                                        </div>
+                                        <div class="ContentText">
+                                            기사 텍스트
+                                        </div>
+                                    </div>
+                                    <div class="Content">
+                                        <div class="ContentImage">
+                                            
+                                        </div>
+                                        <div class="ContentText">
+                                            기사 텍스트
+                                        </div>
+                                    </div>
+                                    <div class="Content">
+                                        <div class="ContentImage">
+                                            
+                                        </div>
+                                        <div class="ContentText">
+                                            기사 텍스트
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ng-container *ngIf="Expanded>=2">
+                                <div class="feedArea" [ngClass]="{'Expand' : Expanded >= 2 }">
+                                    <div style="display: flex;">
+                                        <div class="Content">
+                                            <div class="ContentImage">
+                                                
+                                            </div>
+                                            <div class="ContentText">
+                                                기사 텍스트
+                                            </div>
+                                        </div>
+                                        <div class="Content">
+                                            <div class="ContentImage">
+                                                
+                                            </div>
+                                            <div class="ContentText">
+                                                기사 텍스트
+                                            </div>
+                                        </div>
+                                        <div class="Content">
+                                            <div class="ContentImage">
+                                                
+                                            </div>
+                                            <div class="ContentText">
+                                                기사 텍스트
+                                            </div>
+                                        </div>
+                                        <div class="Content">
+                                            <div class="ContentImage">
+                                                
+                                            </div>
+                                            <div class="ContentText">
+                                                기사 텍스트
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex;">
+                                        <div class="Content">
+                                            <div class="ContentImage">
+                                                
+                                            </div>
+                                            <div class="ContentText">
+                                                기사 텍스트
+                                            </div>
+                                        </div>
+                                        <div class="Content">
+                                            <div class="ContentImage">
+                                                
+                                            </div>
+                                            <div class="ContentText">
+                                                기사 텍스트
+                                            </div>
+                                        </div>
+                                        <div class="Content">
+                                            <div class="ContentImage">
+                                                
+                                            </div>
+                                            <div class="ContentText">
+                                                기사 텍스트
+                                            </div>
+                                        </div>
+                                        <div class="Content">
+                                            <div class="ContentImage">
+                                                
+                                            </div>
+                                            <div class="ContentText">
+                                                기사 텍스트
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex;">
+                                        <div class="Content">
+                                            <div class="ContentImage">
+                                                
+                                            </div>
+                                            <div class="ContentText">
+                                                기사 텍스트
+                                            </div>
+                                        </div>
+                                        <div class="Content">
+                                            <div class="ContentImage">
+                                                
+                                            </div>
+                                            <div class="ContentText">
+                                                기사 텍스트
+                                            </div>
+                                        </div>
+                                        <div class="Content">
+                                            <div class="ContentImage">
+                                                
+                                            </div>
+                                            <div class="ContentText">
+                                                기사 텍스트
+                                            </div>
+                                        </div>
+                                        <div class="Content">
+                                            <div class="ContentImage">
+                                                
+                                            </div>
+                                            <div class="ContentText">
+                                                기사 텍스트
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ng-container *ngIf="Expanded===3">
+                                    <div class="feedArea" [ngClass]="{'Expand' : Expanded === 3 }">
+                                        <div style="display: flex;">
+                                            <div class="Content">
+                                                <div class="ContentImage">
+                                                    
+                                                </div>
+                                                <div class="ContentText">
+                                                    기사 텍스트
+                                                </div>
+                                            </div>
+                                            <div class="Content">
+                                                <div class="ContentImage">
+                                                    
+                                                </div>
+                                                <div class="ContentText">
+                                                    기사 텍스트
+                                                </div>
+                                            </div>
+                                            <div class="Content">
+                                                <div class="ContentImage">
+                                                    
+                                                </div>
+                                                <div class="ContentText">
+                                                    기사 텍스트
+                                                </div>
+                                            </div>
+                                            <div class="Content">
+                                                <div class="ContentImage">
+                                                    
+                                                </div>
+                                                <div class="ContentText">
+                                                    기사 텍스트
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="display: flex;">
+                                            <div class="Content">
+                                                <div class="ContentImage">
+                                                    
+                                                </div>
+                                                <div class="ContentText">
+                                                    기사 텍스트
+                                                </div>
+                                            </div>
+                                            <div class="Content">
+                                                <div class="ContentImage">
+                                                    
+                                                </div>
+                                                <div class="ContentText">
+                                                    기사 텍스트
+                                                </div>
+                                            </div>
+                                            <div class="Content">
+                                                <div class="ContentImage">
+                                                    
+                                                </div>
+                                                <div class="ContentText">
+                                                    기사 텍스트
+                                                </div>
+                                            </div>
+                                            <div class="Content">
+                                                <div class="ContentImage">
+                                                    
+                                                </div>
+                                                <div class="ContentText">
+                                                    기사 텍스트
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="display: flex;">
+                                            <div class="Content">
+                                                <div class="ContentImage">
+                                                    
+                                                </div>
+                                                <div class="ContentText">
+                                                    기사 텍스트
+                                                </div>
+                                            </div>
+                                            <div class="Content">
+                                                <div class="ContentImage">
+                                                    
+                                                </div>
+                                                <div class="ContentText">
+                                                    기사 텍스트
+                                                </div>
+                                            </div>
+                                            <div class="Content">
+                                                <div class="ContentImage">
+                                                    
+                                                </div>
+                                                <div class="ContentText">
+                                                    기사 텍스트
+                                                </div>
+                                            </div>
+                                            <div class="Content">
+                                                <div class="ContentImage">
+                                                    
+                                                </div>
+                                                <div class="ContentText">
+                                                    기사 텍스트
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ng-container>
+                            </ng-container>
+                        </ng-container>
+                    </div>
+                    <ng-container *ngIf="Expanded !== 3">
+                        <button class = "BottomBar SeeMore" style="height: 56px;"(click)="Expand()">
+                            + 펼쳐보기
+                        </button>
+                    </ng-container>
+                </ng-container>
+            </ng-container>
+        </div>
+    </div>
+    <div class='row2'>
+        <div class = "sticky">
+            <div class = "Login">
+                <div>네이버를 더 안전하고 편리하게 이용하세요</div>
+                <div class= "LoginButton">
+                    <div style = "font-weight: 900;">
+                        NAVER
+                    </div>
+                    <div style = "font-weight: 500;"> 
+                        로그인
+                    </div>
+                </div>
+                <div class = "LoginMenu">
+                    <div class = "TextButtonSmall">
+                        아이디 찾기
+                    </div> 
+                    |
+                    <div class = "TextButtonSmall">
+                        비밀번호 찾기
+                    </div>
+                    |
+                    <div class = "TextButtonSmall">
+                        회원가입
+                    </div>
+                </div>
+            </div>
+            <button class = "ad2">광고!</button>    
+            <div class = "newsBox">
+                <button class= "WeatherNews">
+                    <div class = "newsbreak">
+                        기상특보
+                    </div>
+                    <div class="WeatherNewsText">
+                        김해 폭염경보
+                    </div>
+                </button>
+            </div>
+            <div class = "weatherBox"></div>
+            <div class ="EconomyBox"></div>
+        </div>
+        <div class = "sticky">
+            <div class = "board"></div>
+            <div class = "ad3"></div>
+        </div>
+    </div>
+</div>
+<div class = "ContentInfo"></div>
+
+
+<!-- Mobile -->
+<div class="Contents-M">
+    <div class="contents1-M">
+        <div class="AD-M">
+            광고
+        </div>
+    </div>
+    <div class="container-M Weather-M">
+        날씨박스
+    </div>
+    <div class="container-M NOW-M">
+        <div class="titleText-M NowText-M">NOW.</div>
+        <div class="row">
+            <div>
+                <div class="NowImg">
+                </div>
+                <div class="textBox-M">
+                    텍스트
+                </div>    
+            </div>
+            <div style="margin-left: 7px;">
+                <div class="NowImg">
+                </div>
+                <div class="textBox-M">
+                    텍스트
+                </div>    
+            </div>
+            <div style="margin-left: 7px;">
+                <div class="NowImg">
+                </div>
+                <div class="textBox-M">
+                    텍스트
+                </div>    
+            </div>
+            <div style="margin-left: 7px;">
+                <div class="NowImg">
+                </div>
+                <div class="textBox-M">
+                    텍스트
+                </div>    
+            </div>
+        </div>
+    </div>
+    <div class="container-M Shopping-M">
+        <div class="titleText-M">
+            쇼핑
+        </div>
+        <div class="row">
+            <div class="ShoppingImg-M">
+
+            </div>
+            <div class="text-Shopping">
+                텍스트
+            </div>
+        </div>
+        <div class="row margin-top">
+            <div class="ShoppingImg-M">
+
+            </div>
+            <div class="text-Shopping">
+                텍스트
+            </div>
+        </div>
+        <div class="row margin-top">
+            <div class="ShoppingImg-M">
+
+            </div>
+            <div class="text-Shopping">
+                텍스트
+            </div>
+        </div>
+        <div class="row margin-top">
+            <div class="ShoppingImg-M">
+
+            </div>
+            <div class="text-Shopping">
+                텍스트
+            </div>
+        </div>
+        <div class="shoppingBot">
+            dssssssssssssssss
+        </div>
+    </div>
+    <div class="container-M Shorts">
+        <div class="titleText-M">
+            짧은 즐거움
+        </div>
+        <div class="titleText-M" style="color: blue; margin-bottom: 0px;height: auto;">
+            숏폼
+        </div>
+        <div class="row">
+            <div>
+                <div class="ShortsImg"></div>
+                <div class="ShortsTitle">
+                    동영상 제목
+                </div>
+                <div class="ShortsChannel">
+                    채널명
+                </div>
+            </div>
+            <div>
+                <div class="ShortsImg"></div>
+                <div class="ShortsTitle">
+                    동영상 제목
+                </div>
+                <div class="ShortsChannel">
+                    채널명
+                </div>
+            </div>
+            <div>
+                <div class="ShortsImg"></div>
+                <div class="ShortsTitle">
+                    동영상 제목
+                </div>
+                <div class="ShortsChannel">
+                    채널명
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="SmallAd container-M">
+        네이버 광고
+    </div>    
+    <div class="container-M Stocks-M">
+        <div class="row">
+            <div class="stocksBlock">
+                나스닥~~~~~
+            </div>
+            <div class="stocksBlock">
+                나스닥~~~~~
+            </div>
+            <div class="stocksBlock" style="border: none;">
+                나스닥~~~~~
+            </div>
+        </div>
+        <div class="buttonArea">
+            <div class="buttonStocks">
+                국내 증시
+            </div>
+            <div class="Bar"></div>
+            <div class="buttonStocks">
+                해외 증시
+            </div>
+            <div class="Bar"></div>
+            <div class="buttonStocks" style="border: none;">
+                겅제 지표
+            </div>
+        </div>
+    </div>
+    <div class="roundBanner-M container-M">
+
+    </div>
+    <div class="roundBanner-M container-M"></div>
+    <div class="roundBanner-M container-M"></div>
+    <div class="wrap">
+        <div style="margin-left: 8px;">
+        오늘 네이버
+        </div>
+        <div class="wrapBanner">
+            <div class="NaverToday container-M"></div>
+        </div>
+    </div>
+</div>
